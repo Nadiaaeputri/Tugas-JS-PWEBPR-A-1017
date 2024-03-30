@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siapa aku? </title>
+    <link rel = "stylesheet" href = "output.css">
+</head>
+
+<body>
+    <div class="wrapper h-[100vh] flex justify-center items-center flex-col gap-12">
+        <h1 class="font-extrabold text-4xl">Yakin kan Profesi Anda !</h1>
+        <div class="bg-[#DBDBDB] w-[640px] h-[369px] rounded-[30px] relative">
+            <img class="w-[219px] absolute -top-8 left-[50%] translate-x-[-50%] translate-y-0"
+                src="detektif.png" alt="">
+            <div class="z-10 absolute top-[50%] gap-4 left-0 right-0 flex items-center flex-col">
+                <div class="bg-[#FEEEE2] w-[475px] h-[56px] rounded-[20px] flex justify-center items-center">
+                    <p class="font-bold">Apakah anda seorang Detective?</p>
+                </div>
+                <div class="w-[25rem] h-[56px] flex justify-evenly items-center">
+                    <button id="iya" type="button" class="bg-[#6FD240] h-[41px] w-[157px] rounded-[12px] flex justify-center items-center">
+                        <p class="font-bold">Iya!!</p>
+                    </button>
+                    <button id="tidak" type="button"
+                        class="bg-[#E12E2E] text-white h-[41px] w-[157px] rounded-[12px] flex justify-center items-center">
+                        <p class="font-bold">Tidak!!</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
